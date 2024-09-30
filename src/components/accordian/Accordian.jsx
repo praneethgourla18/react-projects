@@ -13,7 +13,7 @@ export default function Accordian(){
    
   return(
      <div className="flex flex-col items-center">
-      <h1 className="p-5 bg-red-500 m-2 w-[500px] text-center font-bold text-2xl cursor-pointer" >Accordian</h1>
+      <h1 className="p-5 bg-red-500 mt-7 mb-3 w-[500px] text-center font-bold text-2xl cursor-pointer" >Accordian</h1>
         
         {
            Data.map((item,index) =>{
